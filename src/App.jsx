@@ -6,11 +6,14 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import './App.css';
+import CreateContext from './components/context.jsx';
+
 
 function App() {
   return (
     <>
       <NavBar />
+        <CreateContext/>
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
