@@ -7,7 +7,6 @@ export const AuthContext = createContext({})
 export function AuthContextProvider ({children}){
     const [isAuth, setIsAuth] = useState(false)
     const navigate  = useNavigate()
-
     function setAuthTrue() {
         setIsAuth(true)
     }
@@ -45,5 +44,5 @@ return(
 }
 
 
-// const [isAuth, toggleIsAuth] = useState(false);
+
 

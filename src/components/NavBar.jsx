@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from 'react';
 import logo from '../assets/banana-01.png';
 import { useNavigate, Link } from 'react-router-dom';
-import {AuthContext} from "./context";
+import {AuthContext} from "./AuthContext";
 
 function NavBar() {
   const navigate = useNavigate();
